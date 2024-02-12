@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(227, 223, 223);
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container h4{
+    padding: 1.8rem;
+}
+.PrevNext{
+    margin: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+}
+.PrevNext button{
+    padding: 10px 12px;
+    background-color: rgb(239, 69, 69);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+
